@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    float x, F;
+
+    printf("Ingresa el valor de x: ");
+    scanf("%f", &x);
+
+    if (x >= 300)
+    {
+        F = x * 75;
+    }
+    else if (x > 200)
+    {
+        F = x * 85;
+    }
+    else
+    {
+        F = x * 95;
+    }
+
+    printf("El resultado es: %.2f\n", F);
+
+    return 0;
+}
