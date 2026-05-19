@@ -3,7 +3,7 @@
 int main()
 {
     int n, i;
-    long long factorial = 1;
+    int factorial = 1;
 
     printf("Ingresa un numero: ");
     scanf("%d", &n);
@@ -13,7 +13,7 @@ int main()
         factorial = factorial * i;
     }
 
-    printf("El factorial de %d es %lld\n", n, factorial);
+    printf("El factorial de %d es %d\n", n, factorial);
 
     return 0;
 }
